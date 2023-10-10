@@ -15,7 +15,7 @@ window.onload = function() {
   console.log("Hello Rigo from the console!");
 };
 
-let generateExcuse = () {
+let generateExcuse = () => {
   let pronoun = ['A','The'];
   let subject = ['dog', 'dragon', 'pokemon','rat','felicia'];
   let action = ['took my', 'trashed my','rained on my', 'deleted my'];
